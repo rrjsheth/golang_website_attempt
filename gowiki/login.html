@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+  <title> {{.Title}}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/main.css?version=51">
+</head>
+
+<body>
+	<h1> Login to Edit </h1>
+
+	<form action="/edit/{{.Title}}" method="POST">
+		Username: <br>
+		<input type="text" name="username"><br>
+
+		Password: <br>
+		<input type="password" name="password"><br>
+
+		<input type = "submit" class = "btn btn-primary" value = "Submit"> 
+	</form>
+
+</body>

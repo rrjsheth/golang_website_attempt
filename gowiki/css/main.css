@@ -1,0 +1,54 @@
+body {
+  font-family: Helvetica;
+  padding: 2em;
+  background-color: #whitesmoke;
+}
+
+h1 {
+  font-family: Courier;
+  font-size: 2.5em;
+}
+
+ul {
+  list-style: none;
+  display: inline;
+  padding: 0 20px;
+}
+
+.jumbotron{
+  display: flex;
+  align-items: top;
+  color: #262626;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 500px;
+}
+
+.jumbotron-aboutMePage{
+  background-image: url("../images/background1.jpg");
+}
+.jumbotron-coverLetterPage{
+  background-image: url("../images/background2.jpg");
+}
+.jumbotron-resumePage{
+  background-image: url("../images/background3.jpg");
+}
+.jumbotron-gitHub{
+  background-image: url("../images/background4.jpg");
+}
+.jumbotron-linkedInPage{
+  background-image: url("../images/background1.jpg");
+}
+
+.jumbotron h2{
+  font-family: Helvetica;
+  font-size: 4em;
+}
+
+
+.jumbotron p{
+  width: 750px;
+  white-space: wrap;
+  overflow: hidden;
+}

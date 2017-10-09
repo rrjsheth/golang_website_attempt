@@ -1,0 +1,40 @@
+<head>
+  <title> {{.Title}}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+
+<body>
+  <header class="container">
+    <div class="row">
+      <h1 class= "col-sm-4">RS</h1>
+      <nav class="col-sm-8 text-right">
+        <ul>
+          <a href="CoverLetter">Cover Letter</a>
+        </ul>
+        <ul>
+          <a href="resumePage">Resume</a>
+        </ul>
+        <ul>
+         <a href="gitHubPage">Github</a>
+        </ul>
+        <ul>
+          <a href="linkedInPage">LinkedIn</a>
+        </ul>
+        <ul>
+          <a href="view">About Me</a>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="jumbotron jumbotron-aboutMePage">
+    <div class="container">
+      <h2>About me</h2>
+      <p>{{printf "%s" .Body}}</p>
+    </div>
+  </section>
+
+</body>
